@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 2% 0;
+    font: 16pt normal Arial;
+    font-family: sans-serif;
+    color: rgb(73, 71, 71);
+    background-color: rgb(96, 95, 163);
+}
+
+div.wrapper{
+    height: 82vh;
+    width: 36%;
+    margin: 0 auto;
+    padding: 2%;
+    border: 0.2px solid white;
+    border-radius: 2pt;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+div.results{
+    height: 10vh;
+    padding: 5% 2.5% 3%;
+    text-align: right;
+    overflow-x: auto;
+    border: 0.1px solid rgba(128, 128, 128, 0.418);
+}
+
+div.results span{
+    display: inline-block;
+    font-size: 2.8rem;
+}
+
+div.button-wrapper{
+    display: grid;
+    margin-top: 0.6cm;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3%;
+    row-gap: 7%;
+    color: wheat;
+}
+
+button.btns{
+    height: 10vh;
+    width: 8vw;
+    font-size: 1.7rem;
+    transition: 0.2s;
+    border: 0.1px solid rgba(128, 128, 128, 0.418);
+    color: rgb(73, 71, 71);
+    background-color: white;
+}
+
+button.btns:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    border: 0.3px solid rgba(126, 126, 126, 0.938);
+    box-shadow: 0px 1px 4px 3px rgba(109, 109, 109, 0.438);
+}
+
+button.btns.operators{
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+#equals{
+    grid-column: 4; grid-row: 2/6;
+    height: 100%;
+    border: 0.1px solid rgb(49, 93, 189);
+    color: white;
+    background-color: rgb(61, 112, 223);
+}
